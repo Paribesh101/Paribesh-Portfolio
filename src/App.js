@@ -18,7 +18,7 @@ function App() {
           <Button variant="contained" size = "large" id = "button4">Info</Button>
         </div>
       </Box>
-      <p className = "info">This is Paribesh'sasdfasdfasdf Site!</p>
+      <p className = "info">This is Paribesh's Site!</p>
     </body>
 
     </div>
