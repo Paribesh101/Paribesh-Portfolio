@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import * as React from 'react';
 import selfImage from './images/self.jpg';
+import backgroundImage from './images/background.jpg';
 import './styles.css';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div className="App">
             <body className="body">
                 <h1 id = "title">Paribesh's Site</h1>
+                <img src = {backgroundImage} className = "background"/>
                 <img src = {selfImage} id = "img" />
                 <Box sx={{ '& button': { m: 15 } }}>
                     <div class = "nav">
