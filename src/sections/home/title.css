@@ -1,0 +1,100 @@
+@keyframes writer {
+  4.3478% {
+    content: "";
+  }
+  8.695% {
+    content: "H";
+  }
+  13.043% {
+    content: "Hi";
+  }
+  17.391% {
+    content: "Hi,";
+  }
+  21.739% {
+    content: "Hi, ";
+  }
+  26.0869% {
+    content: "Hi, I";
+  }
+  30% {
+    content: "Hi, I'm";
+  }
+  34.78% {
+    content: "Hi, I'm ";
+  }
+  39.130% {
+    content: "Hi, I'm P";
+  }
+  43% {
+    content: "Hi, I'm Pa";
+  }
+  47.8% {
+    content: "Hi, I'm Par";
+  }
+  52.18% {
+    content: "Hi, I'm Pari";
+  }
+  56.52% {
+    content: "Hi, I'm Parib";
+  }
+  60.87% {
+    content: "Hi, I'm Paribe";
+  }
+  65.21% {
+    content: "Hi, I'm Paribes";
+  }
+  69.6% {
+    content: "Hi, I'm Paribesh";
+  }
+  73.9% {
+    content: "Hi, I'm Paribesh ";
+  }
+  78.26% {
+    content: "Hi, I'm Paribesh U";
+  }
+  82.6% {
+    content: "Hi, I'm Paribesh Up";
+  }
+  86.96% {
+    content: "Hi, I'm Paribesh Upr";
+  }
+  91.3% {
+    content: "Hi, I'm Paribesh Upre";
+  }
+  95.6% {
+    content: "Hi, I'm Paribesh Upret";
+  }
+  100% {
+    content: "Hi, I'm Paribesh Upreti";
+  }
+}
+
+#title::before {
+  content: "";
+  animation: writer 3s linear forwards;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#title::after {
+  content: "|";
+  font-family: "Times New Roman", Times, serif;
+  animation: blink infinite alternate 0.3s;
+}
+
+#title {
+  font-size: 300%;
+  letter-spacing: 0%;
+  font-family: "Ubuntu";
+  width: 100%;
+  animation: forwards;
+  color: antiquewhite;
+}
