@@ -140,5 +140,12 @@ Button:hover {
   color: rgba(223, 249, 250, 0.722);
   font-family: "Inter";
   font-size: 230%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
+}
+
+.form, .fields {
+  color: white;
+  border-radius: 2;
+  display: flex;
+  flex-direction: column;
 }

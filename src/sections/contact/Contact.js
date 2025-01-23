@@ -4,6 +4,7 @@ import FilledInput from "@mui/material/FilledInput";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import TextField from "@mui/material/TextField";
+
 const Contact = () => {
   return (
     <section className="contact">
@@ -14,20 +15,10 @@ const Contact = () => {
           follow me on LinkedIn. <br></br>Feel free to message me.
         </p>
 
-        <Box
-          component="form"
-          sx={{ "& .MuiTextField-root": { m: 1, width: "25ch" } }}
-          noValidate // Disables HTML5 validation
-          autoComplete="off" // Turns off auto-completion
-        >
-          <div>
-            <TextField
-              required
-              id="outlined-required"
-              label="Required"
-              defaultValue="Hello World" // Pre-filled text
-            />
-          </div>
+        <Box component="form" sx={{ '& > :not(style)': { m: 3, width: '25ch', borderRadius: '10%', display: 'flex' } }}noValidate autoComplete="off">
+          <TextField id="outlined-basic" label="Enter your name" variant="outlined"  sx={{ '& .MuiInputBase-input': {  m: 0.2, backgroundColor: 'white', width: '25ch', borderRadius: '10px', display: 'flex' } }} />
+          <TextField id="outlined-basic" label="Enter your name" variant="outlined"  sx={{ '& .MuiInputBase-input': {  m: 0.2, backgroundColor: 'white', width: '25ch', borderRadius: '10px', display: 'flex' } }} />
+          <TextField id="outlined-basic" label="Enter your name" variant="outlined"  sx={{ '& .MuiInputBase-input': {  m: 0.2, backgroundColor: 'white', width: '25ch', borderRadius: '10px', display: 'flex' } }} />
         </Box>
 
         <p className="address">
